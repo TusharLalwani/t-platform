@@ -5,7 +5,8 @@ app.get('/', (req,res) => {
     res.send(
         {
             Hello: "Buddy",
-            Bye: "Dude"
+            Bye: "Dude",
+            Deta: process.env.PORT
         }
     );
 });
