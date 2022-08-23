@@ -4,5 +4,6 @@ module.exports = {
     googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
     mongoURI: process.env.MONGO_URI,
     // mongoURI:"mongodb+srv://AdminProd:7YT76mvGiZsApOSc@cluster0.bexumpj.mongodb.net/?retryWrites=true&w=majority",
-    cookieKey: process.env.COOKIE_KEY
+    cookieKey: process.env.COOKIE_KEY,
+    googleRedirectURI: "https://damp-lowlands-45165.herokuapp.com"
 }
